@@ -1,0 +1,61 @@
+# ===== 通用 =====
+.DS_Store
+Thumbs.db
+*.log
+
+# Claude Code 本地配置
+.claude/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ===== Node.js / 前端 =====
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+
+# ===== Keil MDK (STM32H743 固定端) =====
+# 编译中间产物与输出
+*.o
+*.axf
+*.hex
+*.crf
+*.d
+*.dep
+*.lnp
+*.lst
+*.bak
+*.map
+*.htm
+*.build_log.htm
+# 用户 GUI 布局
+*.uvguix.*
+JLinkSettings.ini
+debug.log
+# 工程输出目录
+MDK-ARM/*/
+
+# ===== TI CCS (MSPM0 移动端) =====
+Debug/
+*.out
+*.opt
+*.genlibs
+*.map
+*.o
+*.d
+
+# ===== STM32CubeMX 用户工程文件 =====
+*.mxproject
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp

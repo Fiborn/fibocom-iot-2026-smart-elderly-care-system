@@ -1,0 +1,210 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Rebuild target 'STM32H743IIT6'
+assembling startup_stm32h743xx.s...
+compiling lcd_image.c...
+compiling lcd_fonts.c...
+compiling touch_800x480.c...
+compiling led.c...
+compiling touch_iic.c...
+compiling fmc.c...
+compiling sccb.c...
+compiling sdmmc.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\sdmmc.d": Permission denied
+../Core/Src/sdmmc.c: 0 warnings, 1 error
+compiling gpio.c...
+compiling dma2d.c...
+compiling dma.c...
+compiling dcmi.c...
+../Core/Inc/ltdc.h(200): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTDC_H__ */
+../Core/Src/dcmi.c(1058): warning:  #1-D: last line of file ends without a newline
+  /* USER CODE END 1 */
+../Core/Src/dcmi.c: 2 warnings, 0 errors
+compiling usart.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\usart.d": Permission denied
+../Core/Src/usart.c: 0 warnings, 1 error
+compiling ltdc.c...
+../Core/Inc/ltdc.h(200): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTDC_H__ */
+../Core/Src/ltdc.c(1249): warning:  #1-D: last line of file ends without a newline
+  /* USER CODE END 1 */
+../Core/Src/ltdc.c: 2 warnings, 0 errors
+compiling main.c...
+../Core/Inc/ltdc.h(200): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTDC_H__ */
+../Core/Inc/gallery.h(57): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/sensors.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/dht11.h(26): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/delay.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/lunar.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/DS.h(44): warning:  #1295-D: Deprecated declaration ds1302_init_with_check - give arg types
+  void ds1302_init_with_check();
+../Core/Inc/DS.h(45): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/sai.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/i2c.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif /* __I2C_H */
+../Core/Inc/wav_player.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/tlv320aic3254.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(254): warning:  #223-D: function "AI_CopyWeightsToSDRAM" declared implicitly
+  	AI_CopyWeightsToSDRAM();
+../Core/Src/main.c(174): warning:  #177-D: variable "time_str"  was declared but never referenced
+      char     time_str[64];
+../Core/Src/main.c(177): warning:  #177-D: variable "week_cn"  was declared but never referenced
+  		const char *week_cn[] = {
+../Core/Src/main.c: 15 warnings, 0 errors
+compiling stm32h7xx_it.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_it.d": Permission denied
+../Core/Src/stm32h7xx_it.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_msp.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_msp.d": Permission denied
+../Core/Src/stm32h7xx_hal_msp.c: 0 warnings, 1 error
+compiling jpeg_encode.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\jpeg_encode.d": Permission denied
+../Core/Src/jpeg_encode.c: 0 warnings, 1 error
+compiling gallery.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\gallery.d": Permission denied
+../Core/Src/gallery.c: 0 warnings, 1 error
+compiling jpeg_utils.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\jpeg_utils.d": Permission denied
+../Core/Src/jpeg_utils.c: 0 warnings, 1 error
+compiling photo_capture.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\photo_capture.d": Permission denied
+../Core/Src/photo_capture.c: 0 warnings, 1 error
+compiling delay.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\delay.d": Permission denied
+..\Core\Src\delay.c: 0 warnings, 1 error
+compiling dht11.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\dht11.d": Permission denied
+..\Core\Src\dht11.c: 0 warnings, 1 error
+compiling DS.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\ds.d": Permission denied
+..\Core\Src\DS.c: 0 warnings, 1 error
+compiling lunar.c...
+../Core/Inc/lunar.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\lunar.c(271): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\lunar.c(121): warning:  #177-D: variable "jq_month"  was declared but never referenced
+  static const uint8_t jq_month[24] = {
+..\Core\Src\lunar.c(126): warning:  #177-D: variable "jieqi_tab"  was declared but never referenced
+  static uint8_t jieqi_tab[201][24];
+..\Core\Src\lunar.c(127): warning:  #177-D: variable "jieqi_loaded"  was declared but never referenced
+  static int jieqi_loaded = 0;
+..\Core\Src\lunar.c: 5 warnings, 0 errors
+compiling image_utils.c...
+compiling wav_player.c...
+../Core/Inc/wav_player.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/sai.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/tlv320aic3254.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/i2c.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif /* __I2C_H */
+..\Core\Src\wav_player.c(444): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\wav_player.c: 5 warnings, 0 errors
+compiling stm32h7xx_hal_rcc_ex.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_rcc_ex.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_flash.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_flash.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_flash_ex.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_flash_ex.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_gpio.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_gpio.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_hsem.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_hsem.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c: 0 warnings, 1 error
+compiling sai.c...
+../Core/Inc/sai.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/wav_player.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\sai.c(222): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\sai.c: 3 warnings, 0 errors
+compiling stm32h7xx_hal_dma.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_dma.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_dma_ex.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_dma_ex.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_mdma.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_mdma.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_jpeg.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_jpeg.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_pwr.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_pwr.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c: 0 warnings, 1 error
+compiling stm32h7xx_hal_pwr_ex.c...
+"no source": Error:  #219: error while deleting file "stm32h743iit6\stm32h7xx_hal_pwr_ex.d": Permission denied
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c: 0 warnings, 1 error
+compiling tlv320aic3254.c...
+../Core/Inc/tlv320aic3254.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/i2c.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif /* __I2C_H */
+..\Core\Src\tlv320aic3254.c(300): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\tlv320aic3254.c: 3 warnings, 0 errors
+compiling i2c.c...
+../Core/Inc/i2c.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif /* __I2C_H */
+..\Core\Src\i2c.c(88): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\i2c.c: 2 warnings, 0 errors
+compiling sensors.c...
+../Core/Inc/sensors.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\sensors.c(53): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\sensors.c(58): warning:  #223-D: function "Error_Handler" declared implicitly
+          Error_Handler();
+..\Core\Src\sensors.c(143): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\sensors.c: 4 warnings, 0 errors
+compiling display_utils.c...
+../Core/Inc/ltdc.h(200): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTDC_H__ */
+..\Core\Src\display_utils.c: 1 warning, 0 errors
+compiling cloud_upload.c...
+compiling ui_panels.c...
+../Core/Inc/lunar.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/ltdc.h(200): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTDC_H__ */
+../Core/Inc/sensors.h(64): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\ui_panels.c(125): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 40, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(136): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 40, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(147): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 40, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(176): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(260, 160, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(229): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 220, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(249): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 220, (uint8_t *)buf, LCD_BackColor);
+..\Core\Src\ui_panels.c(253): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+      LCD_DisplayString(x, 220, (uint8_t *)"%", LCD_BackColor);
+..\Core\Src\ui_panels.c: 10 warnings, 0 errors
+compiling stm32h7xx_hal_dcmi.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_cortex.c...
